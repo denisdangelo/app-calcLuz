@@ -24,8 +24,10 @@ console.log(`sua conta será R${total.toFixed(2)}`)
 
 function calcular(event){
 	event.preventDefault()
-	let consumo = document.getElementById('vcons').value
+	let consumo = document.getElementById('vtarifa').value
 	let kilowatts = document.getElementById('vklwH').value 
-	console.log(consumo)
-	console.log(kilowatts)
+	/*console.log(consumo)
+	console.log(kilowatts)*/
+	let valor = consumo * kilowatts
+	document.getElementById('valor').value = `R$${valor.toFixed(2)}`
 }

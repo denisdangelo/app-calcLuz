@@ -11,14 +11,18 @@
 	<form onsubmit="calcular(event)">
 		<fieldset>
 			<p>
-				<label for="cons">Consumo</label>
-				<input type="number" id="vcons" step="any" placeholder="Consumo" min="0" max="99999" required>
+				<label for="tarifa">Digite o valor do kWh (Kilowatts/H)</label>
+				<input type="number" id="vtarifa" step="any" placeholder="kWh" min="0" max="99999" required>
 			</p>
 			<p>
-				<label for="klwH">Kilowatts</label>
+				<label for="klwH">Digite o consumo em Kilowatts</label>
 				<input type="number" id="vklwH" step="any" placeholder="Kilowatts" min="0" max="99999" required>
 			</p>
+			<br>
+			<label for="valor">Valor do consumo em R$</label>
+			<input type="text" id="valor" readonly>
 			<p><button>Enviar</button></p>
+			<button type="reset">Limpar</button>
 		</fieldset>
 	</form>
 
