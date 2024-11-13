@@ -1,0 +1,29 @@
+body {
+    background: blueviolet;
+    background-image: image-set("img/fundo.png");
+
+}
+label{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px 50px 50px 50px;
+
+}
+
+#vtarifa{
+    border-radius: 250px 250px 250px 250px;
+
+}
+#vklwH{
+    border-radius: 250px 250px 250px 250px;
+
+}
+#vklwH{
+    border-radius: 250px 250px 250px 250px;
+
+}
+
+button{
+    border-radius: 10px 10px 10px 10px;
+
+}

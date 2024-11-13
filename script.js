@@ -1,6 +1,6 @@
 /**
  * Calculo de valor da conta de luz
- * @author Denis D'Angelo
+ * @author Denis D'Angelo & Elen Grecco
  */
 
 //biblioteca
